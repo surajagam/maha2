@@ -1,0 +1,116 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(209, 209, 52); */
+    border-bottom: 1px solid black ;
+    
+}
+.header img{
+
+    height: 15px;
+    width: 15px;
+}
+.left{
+
+    display: flex;
+    
+}
+.right{
+
+    display: flex;
+    /* background-color: aqua; */
+    flex-basis: 350px;
+    justify-content: space-evenly;
+
+
+}
+.main-content{
+
+    display: flex;
+    /* margin: 5px; */
+    padding: 10px;
+}
+.main-content p{
+    margin: 5px;
+    color: rgb(119, 146, 196);
+    font-size: 17px;
+}
+.main-content img{
+    margin: 5px;
+    
+}
+
+.navigation{
+
+    display: flex;
+    padding: 10px;
+}
+.navigation p {
+
+    margin: 5px;
+    color: rgb(119, 146, 196);
+    font-size: 17px;
+}
+
+
+
+.navigation img {
+
+    margin: 5px;
+}
+.matric-home{
+    display: flex;
+    background-color: #f37e2b;
+}
+.alpha{
+
+    display: flex;
+    align-items: center;
+}
+.alpha p{
+
+    margin: 1px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+}
+.matric-home p{
+
+    margin: 10px;
+    color: white;
+}
+.matric-home img{
+
+    margin: 10px;
+    
+}
+.marathi{
+
+    padding: 10px;
+}
+.sub-header{
+
+    display: flex;
+
+}
+.left-image{
+
+    display: flex;
+}
+
+.right-image{
+
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
