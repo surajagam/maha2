@@ -51,6 +51,7 @@
 
     display: flex;
     padding: 10px;
+    border-left: 1px solid  rgb(170, 170, 170);
 }
 .navigation p {
 
@@ -118,6 +119,243 @@
 
     display: flex;
     justify-content: center;
+    flex-grow: 2;
+    height: 65px;
+    padding: 10px;
+    background-color:palegreen;
+}
+
+.sub-header1{
+
+
+    background-color:rgb(8, 8, 75) ;
+    flex-basis: 100%;
+    display: flex;
+
+}
+ .lefttext{
+
+    display: flex;
+    flex-basis:10% ;
+    background-color: #f37e2b;
+    align-items: center;
+ }
+
+ .lefttext p{
+
+    font-size: large;
+    color: white;
+ }
+ .apply-division{
+
+    display: flex;
+    color: white;
+    padding: 10px;
+ }
+
+ .apply-division img {
+
+    background-color: white;
+    border-radius: 40px;
+    opacity: 0.5;
+    
+ }
+ .apply-division p{
+
+    font-size:large;
+    margin-left: 10px;
+    opacity: 0.5;
+
+ }
+.opacity1 {
+
+    opacity: 0.9;
+} 
+
+ .main-body{
+    display: flex;
+    height: 100px;
+     
+    flex-basis: 1000px;
+    /* background-color: aqua; */
+ }
+
+
+ .left-aside{
+
+    /* background-color: rgb(35, 185, 135); */
+    flex-basis: 180px;
+    height: 1200px;
     flex-grow: 1;
-    height: 50px;
+
+ }
+
+ .card{
+
+    height: 120px;
+    /* flex-basis: 100px; */
+    margin: 15px;
+    padding: 10px;
+    background-color: antiquewhite;
+    border: soild 1px rgb(31, 23, 25);
+    
+
+    
+    
+ }
+ .card p{
+    color: navy;
+    font-size: 22px;
+ }
+
+ .card img{
+    height: 60px;
+    width: 250px;
+ }
+ 
+ .submain-body{
+
+    display: flex;
+    height: 600px;
+    background-color: blueviolet;
+    flex-basis: 600px;
+    flex-grow: 2;
+
+ }
+ .right-aside{
+
+    background-color: cadetblue;
+    display: flex;
+    flex-basis: 200px;
+    flex-grow: 1;
+ }
+
+ .card2{
+    display: flex;
+    height: 100px;
+    background-color: #ad1914;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+
+ }
+ .card2 p{
+
+    font-size: 19px;
+    color: white;
+ }
+ .card2 img{
+
+    margin-top: -20px;
+    height: 20px;
+
+ }
+
+ .card3{
+    display: flex;
+    height: 100px;
+    background-color:rgb(54, 72, 230);
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-top: -30px;
+
+ }
+ .card3 p{
+
+    font-size: 19px;
+    color: white;
+    padding: 30px;
+ }
+ .card3 img{
+
+    margin-top: -20px;
+    height: 20px;
+ }
+ 
+.last-card{
+    
+    /* display: flex; */
+    height:550px;
+    flex-basis: 20px;
+    margin: 20px;
+    /* background-color: #5e2523; */
+    border: 1px solid gray;
+    
+}
+.bell img{
+
+    padding: 20px;
+}
+.combine{
+
+    display: flex;
+    border-bottom: 1px solid gray;
+    
+ }
+
+
+.notice p{
+border-left: 1px solid rgb(70, 68, 68);
+padding: 20px;
+font-size: 20px;
+border-bottom: 1px soild rgb(95, 91, 91);
+
+}
+
+.left-text p{
+
+    margin: 12px;
+    padding: 10px;
+    color: rgb(248, 63, 63);
+} 
+
+ .left-text ul{
+    color: rgb(248, 63, 63);
+    margin: 20px;
+    padding: 20px;
+    margin-top: -30px;
+}
+
+.rule{
+    height: 40px;
+    flex-basis: 20px;
+    background-color: rgb(44, 44, 223);
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    
+}
+.rule img{
+    height: 20px;
+    margin: 5px;
+}
+.rule p{
+    color: white;
+}
+
+.rule1{
+    height: 40px;
+    flex-basis: 20px;
+    background-color: rgb(44, 44, 223);
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    
+}
+.rule1 img{
+    height: 20px;
+    margin: 5px;
+}
+.rule1 p{
+    color: white;
+}
+
+.marquee1{
+
+    margin-top: 15px;
+    border: 2px solid red;
+    font-style: unset;
+    padding: 9px;
 }
