@@ -149,6 +149,7 @@
  .apply-division{
 
     display: flex;
+    flex-wrap: wrap;
     color: white;
     padding: 10px;
  }
@@ -174,6 +175,7 @@
 
  .main-body{
     display: flex;
+    flex-wrap: wrap;
     height: 100px;
      
     flex-basis: 1000px;
@@ -215,17 +217,17 @@
  
  .submain-body{
 
-    display: flex;
+    /* display: flex; */
     height: 600px;
-    background-color: blueviolet;
+    /* background-color:aqua; */
     flex-basis: 600px;
     flex-grow: 2;
 
  }
  .right-aside{
 
-    background-color: cadetblue;
-    display: flex;
+    /* background-color: cadetblue; */
+    /* display: flex; */
     flex-basis: 200px;
     flex-grow: 1;
  }
@@ -357,5 +359,307 @@ border-bottom: 1px soild rgb(95, 91, 91);
     margin-top: 15px;
     border: 2px solid red;
     font-style: unset;
-    padding: 9px;
+    /* padding: 9px; */
+}
+
+.login{
+
+    display: flex;
+    border-bottom: 3px solid rgb(57, 57, 226);
+
+}
+.login p{
+    margin-left: 10px;
+    color:orange;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.application{
+
+    display: flex;
+}
+.username{
+    /* background-color: bisque; */
+    /* display: flex; */
+    margin: 10px;
+    flex-basis: 300px;
+    flex-grow: 1;
+    height: 300px;
+}
+
+.username input{
+margin: 4px;
+padding: 5px;
+font-size: 15px;
+width: 93%;
+}
+
+.instruction{
+    /* background-color: cadetblue; */
+    flex-basis: 300px;
+    border: 1px solid orange;
+    flex-grow: 1;
+    margin-top: 50px;
+}
+.instruction h3 {
+    margin: 20px;
+}
+
+.captcha{
+    display: flex;
+
+}
+.captcha img{
+
+    height: 120px;
+    margin-top: 10px;
+
+
+}
+.ref{
+    /* display: flex; */
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.login1{
+    display: flex;
+    margin-top:20px;
+}
+
+.login2 p{
+
+    background-color: #1aca55;
+    font-size: large;
+    padding: 8px;
+
+}
+
+.forgot p{
+    background-color: rgba(0, 0, 255, 0.575);
+    font-size: large;
+    margin-left: 8px;
+    padding: 8px;
+
+}
+
+.user{
+    border: 2px solid black;
+}
+
+.forusername{
+
+    background-color: rgb(216, 39, 39);
+    margin-left: 8px;
+    padding: 8px;
+}
+
+.instruction{
+    /* display: flex; */
+    list-style-position: inside;
+    list-style-image: url("/image/notebook.png");
+    text-align: left;
+}
+
+.instruction ul li{
+    font-size: medium;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.right-aside{
+
+
+}
+
+.newapplication{
+
+    display: flex;
+    border: 1px solid rgb(66, 64, 64);
+    /* margin: 5px; */
+    align-items: center;
+    margin-top: 55px;
+    margin-left: 40px;
+
+}
+
+.paraghraph p{
+
+    margin-left: 15px;
+    padding: 5px;
+    font-size: 10px;
+}
+.newapplication img{
+    margin-left: 10px;
+    padding: 5px;
+
+    
+}
+
+.applicant-login{
+
+    
+    display: flex;
+    border: 1px solid rgb(66, 64, 64);
+    /* margin: 5px; */
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+
+.paraghraph p{
+
+    margin-left: 15px;
+    padding: 5px;
+    font-size: 10px;
+}
+.applicant-login img{
+    margin-left: 10px;
+    padding: 5px;
+
+    
+}
+
+.find{
+
+    
+    display: flex;
+    border: 1px solid rgb(66, 64, 64);
+    /* margin: 5px; */
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+
+.paraghraph p{
+
+    margin-left: 15px;
+    padding: 5px;
+    font-size:20px;
+}
+.find img{
+    margin-left: 10px;
+    padding: 5px;
+
+    
+}
+
+
+.institute{
+
+    
+    display: flex;
+    border: 1px solid rgb(66, 64, 64);
+    /* margin: 5px; */
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 40px;
+    padding:-10px;
+
+}
+
+
+.paraghraph p{
+
+    margin-left: 15px;
+    padding: 5px;
+    font-size:20px;
+}
+.institute img{
+    margin-left: 10px;
+    padding: 5px;
+
+    
+}
+
+.suggestion{
+
+    
+    display: flex;
+    border: 1px solid rgb(66, 64, 64);
+    /* margin: 5px; */
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+
+.paraghraph p{
+
+    margin-left: 15px;
+    padding: 5px;
+    font-size:20px;
+}
+.suggestion img{
+    margin-left: 10px;
+    padding: 5px;
+
+    
+}
+.user{
+    display: flex;
+    margin-top: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border: 1px soild rgb(75, 69, 69);
+    align-items: center;
+    /* background-color: #1aca55; */
+    padding: 10px;
+}
+
+.user-manuals{
+    height: auto;
+    margin-left: 20px;
+    border: 1px soild rgb(100, 94, 94);
+    
+
+}
+
+.book img{
+
+  border-right: 2px solid black;
+}
+.right2{
+  height: auto;
+/* width: 300px; */
+border: 1px solid black;
+margin-left: 40px;
+margin-top: 5px;    
+
+   } 
+.list3{
+    margin-left: 60px;
+    list-style-image: url("/image/pdf.png");
+}
+
+.list3 ul {
+    margin-top: 20px;
+}
+
+.frequntly{
+
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+    align-items: center;
+    border: 1px soild rgb(63, 57, 57);
+
+
+}
+
+.fimg{
+    margin-left: 10px;
+}
+
+.frq p{
+
+    margin-left: 20px;
+    font-size: 18px;
+    
 }
